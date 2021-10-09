@@ -1,0 +1,11 @@
+<form [formGroup]="entrada">
+  <input type="text" formControlName="palabra">
+</form>
+
+<br>
+
+{{this.entrada.controls.palabra.value | inverso}}
+
+
+
+
